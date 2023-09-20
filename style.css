@@ -1,0 +1,55 @@
+body{
+background-image: url('1323348.png');
+background-repeat: no-repeat;
+ background-size: cover; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+   position: absolute;
+   left: 1100px;
+   top: 0%;
+  }
+  
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .paratext {
+    color: purple;
+font-size: x-large;
+}
+
+.producten {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 2%;
+}
+
+.product {
+  width: 50%;
+}
+
+title {
+text-align: center;
+
+}
+
+.midden{
+text-align: center;
+
+}

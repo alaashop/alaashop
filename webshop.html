@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>                                  
+                    
+                        <header>
+                            <header>
+                                <a href="./webshop.html" ></a>
+                            </header>
+                            <h1 class="midden">Welkom in onze winkel</h1>
+                        </header>
+                    
+                        <nav>
+                            <ul>
+                                <li><a href="webshop.html">ℍ𝕠𝕞𝕖</a></li>
+                                <li><a href="merken.html">𝕄𝕖𝕣𝕜𝕖𝕟</a></li>
+                                <li><a href="contact.html">ℂ𝕠𝕟𝕥𝕒𝕔𝕥</a></li>
+                                <li><a href="about.html">𝕂𝕝𝕒𝕟𝕥𝕖𝕟𝕤𝕖𝕣𝕧𝕚𝕔𝕖</a></li>
+                            </ul>
+                        </nav>
+                        <hr>
+                        <p class="paratext">ℙ𝕣𝕠𝕕𝕦𝕔𝕥𝕖𝕟</p>
+                        <section class="producten">
+                            <div class="product">
+                                <h3>Product 1</h3>
+                                <img src="truiwitivory.png" alt="Product 1" width="250" height="333">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €50</p>
+                                <button onclick="addToCart('Product 1', 50)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="jd_345454_c.png" alt="Product 2" width="250" height="333">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €62,99</p>
+                                <button onclick="addToCart('Product 2', 62,99)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 1</h3>
+                                <img src="frrrrrrrrrrrrrrrrrrr.webp" alt="Product 1" width="250" height="300">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €230</p>
+                                <button onclick="addToCart('Product 1', 230)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="2225374_P.png" alt="Product 2" width="250" height="300">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €79,99</p>
+                                <button onclick="addToCart('Product 2', 79,99)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="jd_417298_a.png" alt="Product 2" width="350" height="280">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €140</p>
+                                <button onclick="addToCart('Product 2', 140)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 1</h3>
+                                <img src="235466_adidas-x-crazyfast-messi.png" alt="Product 1" width="350" height="305">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €90</p>
+                                <button onclick="addToCart('Product 1', 90)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="237629_adidas-manchester-united-rugtas-zwart-rood_1.png" alt="Product 2" width="250" height="250">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €52</p>
+                                <button onclick="addToCart('Product 2', 52)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="images.jpg" alt="Product 2" width="200" height="200">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €35,99</p>
+                                <button onclick="addToCart('Product 2', 35,99)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 1</h3>
+                                <img src="f24c0098c0624ffa8127f786b3b7e87b.webp" alt="Product 1" width="250" height="333">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €74,99</p>
+                                <button onclick="addToCart('Product 1', 74,99)">Voeg toe aan winkelmandje</button>
+                            </div>
+                            <hr>
+                            <div class="product">
+                                <h3>Product 2</h3>
+                                <img src="49aebdc392374a58996eb29531c985e5.webp" alt="Product 2" width="250" height="333">
+                                <p>𝐏𝐫𝐢𝐣𝐬: €87</p>
+                                <button onclick="addToCart('Product 2', 87)">Voeg toe aan winkelmandje</button>
+                            </div>
+
+                            
+                            <!-- Voeg meer producten toe zoals hierboven -->
+                        </section>
+                        <hr>
+                        <section class="winkelmandje">
+                            <h2>Winkelmandje 🛒</h2>
+                            <ul id="cartItems">
+                                <!-- Hier worden de geselecteerde producten weergegeven -->
+                            </ul>
+                            <p>𝐓𝐨𝐭𝐚𝐚𝐥:<span id="cartTotal">€0</span></p>
+                        </section>
+                    
+                        <script>
+                            const cart = [];
+                    
+                            function addToCart(product, price) {
+                                cart.push({ product, price });
+                                updateCart();
+                            }
+                    
+                            function updateCart() {
+                                const cartItems = document.getElementById('cartItems');
+                                const cartTotal = document.getElementById('cartTotal');
+                                cartItems.innerHTML = '';
+                                let total = 0;
+                    
+                                for (const item of cart) {
+                                    const listItem = document.createElement('li');
+                                    listItem.textContent = `${item.product} - €${item.price}`;
+                                    cartItems.appendChild(listItem);
+                                    total += item.price;
+                                }
+                    
+                                cartTotal.textContent = `€${total}`;
+                            }
+                            
+
+                        </script>
+                       <hr>
+
+</body>
+</html>
